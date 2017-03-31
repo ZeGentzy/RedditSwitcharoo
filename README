@@ -1,0 +1,17 @@
+Dependencies:
+	A MySQL server running on "localhost" with a user "root"
+	Praw4
+	mysqlclient
+	[OPT] yappi
+
+Directories:
+|-- main.py 
+|-- praw.ini
+|-- psswd
+\-- .gitignore
+
+praw.ini:
+Your going to need to define 2 bots:
+	RedditSwitcharoo: Monitors all comments for switcharoos
+	RedditSwitcharooTracer: Goes through comments
+The bots do NOT have to be write capable

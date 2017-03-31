@@ -1,5 +1,5 @@
 Dependencies:
-	A MySQL server running on "localhost" with a user "root"
+	A MySQL server running on "localhost" with a user "root" and a database called "REDDITSWITCHAROO" with a table called "foundposts" which has a colume called "commentID"
 	Praw4
 	mysqlclient
 	[OPT] yappi
